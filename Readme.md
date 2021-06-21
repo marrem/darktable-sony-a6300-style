@@ -39,7 +39,7 @@ In darkroom view. Just click on the ![apply style button](img/apply-style-icon.p
 ## Processing steps
 
 * contrast brightness saturation: saturation + 0.1
-* color zones: [!color zone curve](img/color-zones.png)
+* color zones: ![color zone curve](img/color-zones.png)
 * highlight reconstruction: reconstruct in LCh
 * lens correction: enabled (should choose the lens as read from raw metadata)
 
