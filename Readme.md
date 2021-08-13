@@ -8,8 +8,8 @@ outcome in the standard darktable processing.
 
 I changed the setting for "highlight reconstruction". The standard setting of this module
 "clip highlights" sometimes results in strange colors in highlights, like e.g. the sky.
-Even with the setting "reconstruct in LCh" which produces better results I find certain colors like cyan to be 
-to dominant. So I corrected that in "Color zones". I also bumped up the red a bit. 
+Even with the setting "reconstruct in LCh" which produces better results I find certain colors like cyan to be
+to dominant. So I corrected that in "Color zones". I also bumped up the red a bit.
 
 I added some extra saturation in the "contrast brightness saturation" module.
 
@@ -39,19 +39,8 @@ In darkroom view. Just click on the ![apply style button](img/apply-style-icon.p
 
 ## Processing steps
 
-* contrast brightness saturation: saturation + 0.1
+* contrast brightness saturation: saturation + 0.25
 * color zones: ![color zone curve](img/color-zones.png)
-* highlight reconstruction: reconstruct in LCh
+* highlight reconstruction: reconstruct in LCh; clipping threshold: 0,4
 * lens correction: enabled (it should automatically choose the lens based on raw metadata)
-
-
-
-
-
-
-
-
-
-
-
-
+* shadows and highlights: shadows: + 43, highlights: -43
